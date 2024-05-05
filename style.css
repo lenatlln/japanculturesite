@@ -114,6 +114,6 @@ section {
 #headerImage {
     display: block;
     margin: 0 auto; /* Centers the image horizontally */
-    height: 30%; /* Adjust the height as needed */
-    width: 30%; /* Maintain aspect ratio */
+    height: 10%; /* Adjust the height as needed */
+    width: 10%; /* Maintain aspect ratio */
 }
