@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     background-color: #f4f4f9; /* Couleur de fond des boutons */
     padding: 10px 20px; /* Espacement interne pour augmenter la taille du bouton */
