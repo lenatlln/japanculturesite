@@ -24,9 +24,21 @@
         <h2>Questions Sociales et Environnementales</h2>
         <p>Sur le plan social, les restaurants japonais en Chine cherchent des moyens de faire face à l'interdiction par Pékin des importations de fruits de mer en provenance du Japon, en utilisant des sources alternatives comme Hong Kong ou des ingrédients locaux. Les préoccupations environnementales sont également au premier plan, notamment avec les efforts relatifs au démantèlement de la centrale nucléaire de Fukushima.</p>
     </section>
-    <footer>
-        <p>© 2024 Découvrez le Japon. Tous droits réservés.</p>
-    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Retour en haut">Retour en haut</button>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        }
+    </script>
 </body>
 </html>
 
