@@ -69,19 +69,24 @@ section {
 
 .category-button {
     display: block;
-    width: 300px;
-    height: 200px;
+    width: 300px; /* Width of the button */
+    height: 200px; /* Height of the button */
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: white;
     text-align: center;
-    line-height: 200px;
-    border-radius: 12px;
-    margin: 10px auto;
+    line-height: 200px; /* Vertical centering for the text */
+    border-radius: 15px; /* Rounded corners */
+    margin: 10px auto; /* Centers the button and adds space around */
+    transition: transform 0.3s ease; /* Smooth transform effect on hover */
+}
+
+.category-button:hover {
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
 }
 
 .category-button span {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 5px 20px;
-    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for readability */
+    padding: 10px 20px; /* Padding inside the span */
+    border-radius: 10px; /* Ensures the span also has rounded corners */
 }
