@@ -33,7 +33,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    background-color: #007BFF; /* Couleur de fond des boutons */
+    background-color: #f4f4f9; /* Couleur de fond des boutons */
     padding: 10px 20px; /* Espacement interne pour augmenter la taille du bouton */
     border-radius: 8px; /* Rayon des coins arrondis */
     display: inline-block; /* Permet aux liens de respecter les propriétés de padding et de border */
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #0056b3; /* Changement de couleur au survol */
+    background-color: #BC002D; /* Changement de couleur au survol */
 }
 
 footer {
