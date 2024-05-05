@@ -90,3 +90,17 @@ section {
     padding: 10px 20px; /* Padding inside the span */
     border-radius: 10px; /* Ensures the span also has rounded corners */
 }
+
+#myBtn {
+    color: black;
+    text-decoration: none;
+    background-color: #f4f4f9; /* Couleur de fond des boutons */
+    padding: 10px 20px; /* Espacement interne pour augmenter la taille du bouton */
+    border-radius: 8px; /* Rayon des coins arrondis */
+    display: inline-block; /* Permet aux liens de respecter les propriétés de padding et de border */
+    transition: background-color 0.3s; /* Transition douce pour les interactions */
+}
+
+#myBtn:hover {
+    background-color: #e5afbc; /* Changement de couleur au survol */
+}
