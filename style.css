@@ -58,6 +58,10 @@ section {
     margin: 20px;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .category-links {
     display: flex;
     justify-content: space-around;
