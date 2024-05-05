@@ -7,9 +7,8 @@ body {
 }
 
 header {
-    background-size: cover;
-    background-position: center;
-    color: white; /* Assure une bonne visibilité du texte */
+    background-color: #FF0000; /* Définis la couleur de fond en rouge */
+    color: white; /* Change la couleur du texte pour améliorer la visibilité */
     text-align: center;
     padding: 20px 10px;
 }
@@ -17,7 +16,7 @@ header {
 header h1 {
     margin: 0;
     padding: 20px 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le titre */
+    background-color: rgba(0, 0, 0, 0); /* Fond semi-transparent pour le titre */
     display: inline-block;
 }
 
