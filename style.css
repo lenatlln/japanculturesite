@@ -7,10 +7,18 @@ body {
 }
 
 header {
-    background-color: #FF0000; /* Couleur rouge pour l'entête */
-    color: #fff;
-    padding: 10px 20px;
+    background-size: cover;
+    background-position: center;
+    color: white; /* Assure une bonne visibilité du texte */
     text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour le titre */
+    display: inline-block;
 }
 
 nav ul {
