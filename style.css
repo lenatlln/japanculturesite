@@ -41,3 +41,28 @@ footer {
 section {
     margin: 20px;
 }
+
+.category-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.category-button {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    line-height: 200px; /* Vertically center text */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.category-button span {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for text readability */
+    padding: 5px 10px;
+}
