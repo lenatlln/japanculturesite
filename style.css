@@ -92,17 +92,21 @@ section {
 }
 
 #myBtn {
-    color: black;
-    text-decoration: none;
-    background-color: #f4f4f9; /* Couleur de fond des boutons */
-    padding: 10px 20px; /* Espacement interne pour augmenter la taille du bouton */
-    border-radius: 8px; /* Rayon des coins arrondis */
-    display: inline-block; /* Permet aux liens de respecter les propriétés de padding et de border */
-    transition: background-color 0.3s; /* Transition douce pour les interactions */
+    display: none; /* Cache le bouton par défaut */
+    position: fixed; /* Fixe le bouton par rapport à la fenêtre de visualisation */
+    bottom: 20px; /* Positionne le bouton à 20px du bas de la page */
     left: 50%; /* Déplace le bouton à 50% de la largeur de la fenêtre depuis la gauche */
     transform: translateX(-50%); /* Décale le bouton de 50% de sa propre largeur vers la gauche pour le centrer */
+    z-index: 99; /* S'assure que le bouton est au-dessus des autres éléments */
+    border: none; /* Pas de bordure */
+    outline: none; /* Pas de contour */
+    background-color: #BC002D; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    cursor: pointer; /* Affiche un curseur pointeur pour indiquer que le bouton est cliquable */
+    padding: 15px; /* Espacement intérieur autour du texte */
+    border-radius: 10px; /* Coins arrondis */
 }
 
 #myBtn:hover {
-    background-color: #e5afbc; /* Changement de couleur au survol */
+    background-color: #e5afbc; /* Change la couleur de fond lors du survol */
 }
