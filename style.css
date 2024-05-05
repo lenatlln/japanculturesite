@@ -46,7 +46,7 @@ nav ul li a:hover {
 
 footer {
     background-color: #BC002D;
-    color: #BC002D;
+    color: #fff;
     text-align: center;
     padding: 10px 20px;
     position: fixed;
@@ -79,7 +79,7 @@ section {
 }
 
 .category-button span {
-    background-color: rgba(0, 0, 0, 0.5); /* Dark background for text readability */
+    background-color: rgba(0, 0, 0, 0); /* Dark background for text readability */
     padding: 5px 10px;
 }
 
