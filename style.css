@@ -110,3 +110,10 @@ section {
 #myBtn:hover {
     background-color: #e5afbc; /* Change la couleur de fond lors du survol */
 }
+
+#headerImage {
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+    height: 100px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
