@@ -66,8 +66,20 @@
             <li><strong>Explorer la rue Takeshita à Harajuku</strong> : Connue pour ses tendances de mode unique et son ambiance jeune et dynamique.</li>
         </ul>
     </section>
-    <footer>
-        <p>© 2024 Découvrez le Japon. Tous droits réservés.</p>
-    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Retour en haut">Retour en haut</button>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+        }
+    </script>
 </body>
 </html>
