@@ -115,5 +115,5 @@ section {
     display: block;
     margin: 0 auto; /* Centers the image horizontally */
     height: 30%; /* Adjust the height as needed */
-    width: auto; /* Maintain aspect ratio */
+    width: 30%; /* Maintain aspect ratio */
 }
